@@ -1,0 +1,48 @@
+/* Global Setting */
+
+/* Header&Logo Styles */
+
+header {
+    height: 100px;
+    background: lightseagreen;
+    background-image: url("../img/pattern.png");
+    background-size: contain;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+}
+
+/* Main Article Styles */
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.marked_text {
+    background-color: yellow;
+}
+
+.author {
+    text-decoration: none;
+    color: aqua;
+    font-weight: bold;
+}
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: blue;
+    color: white;
+}
+tr:nth-child(odd) {
+    background-color: aquamarine;
+}
+
+/* "Footer" Link to other style */
