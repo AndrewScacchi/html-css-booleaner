@@ -1,5 +1,9 @@
 /* Global Setting */
 
+body {
+    margin:0;
+}
+
 /* Header&Logo Styles */
 
 header {
@@ -48,6 +52,13 @@ th {
 }
 tr:nth-child(odd) {
     background-color: aquamarine;
+}
+
+.tab_row {
+    width:25%;
+}
+.tab_row_big {
+    width: 50%;
 }
 
 /* "Footer" Link to other style */
